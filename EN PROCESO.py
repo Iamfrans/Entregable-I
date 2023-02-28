@@ -7,3 +7,5 @@ import sqlite3
 class Product:
     def __init__(self, window):
         self.wind = window 
+#Le damos el titulo 
+        self.wind.title('Ferreteria: El baul de Anonymous')
