@@ -9,3 +9,8 @@ class Product:
         self.wind = window 
 #Le damos el titulo 
         self.wind.title('Ferreteria: El baul de Anonymous')
+#ventana de Aplicativo
+if __name__ == '_main_':
+    window = Tk()
+    aplication = Product(window)
+    window.mainloop()
